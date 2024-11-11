@@ -1,0 +1,124 @@
+<@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+   }
+
+   htitle{
+       font-family: raleway, sans-serif;
+       font-size: 1.5rem;
+       font-weight:600;
+       color:#000;
+       padding-bottom: 1rem;
+       line-height: 4rem;
+
+   }
+   body {
+       justify-content: center;
+       padding:1rem;
+   }
+
+   article {
+       width: 100%;
+       max-width: 800px;
+   }
+
+   header {
+       background-position: center;
+       background-size: cover;
+       padding: 40px;
+       border-radius: 8px;
+       color: #fff;
+       /* text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);*/
+       font-family: raleway, sans-serif;
+   }
+
+   .upper-header {
+       display: flex;
+       justify-content: space-between;
+       font-size: 1rem;
+           font-weight: 550;
+   }
+
+   .lower-header {
+       margin-top: 40px;
+   }
+
+   .tags-container {
+       display: flex;
+       gap: 10px;
+       color:#000;
+       opacity:;
+       font-size: 0.875rem;
+       font-family: raleway, sans-serif;
+           background: #fff;
+       padding: 0.5rem;
+       width: fit-content;
+       border-radius: 0.2rem;
+       font-weight: 550;
+   }
+
+   .title {
+       font-size: 2.5rem;
+       font-weight: bold;
+       margin: 20px 0;
+       font-family: raleway, sans-serif;
+   }
+
+   .subtitle {
+       font-size: 1.125rem;
+       opacity: 0.8;
+       color: #fdfbfb;
+       font-weight: 550;
+       font-family: 'Montserrat';
+       line-height: 1.4rem;
+   }
+
+   .summary {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 20px;
+       padding: 20px;
+       background: #f9f9f9;
+       border-radius: 8px;
+       box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+   }
+
+   .summary-item {
+       text-align: center;
+   }
+
+   .item-title {
+       color: #999;
+       font-size: 0.875rem;
+   }
+
+   .item-text {
+       font-size: 1.25rem;
+       color: #333;
+   }
+
+   .main-article {
+       margin-top: 1rem;
+       line-height: 1.6;
+   }
+
+   .main-article h4 {
+       font-size: 1.5rem;
+       margin-bottom: 15px;
+       color: #222;
+   }
+
+   .main-article p {
+           font-family: 'Montserrat';
+       font-size: 0.9rem;
+       line-height: 1.2;
+       color: #000;
+       margin-bottom: 20px;
+       text-align: justify;
+       font-weight: 500;
+   }
