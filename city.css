@@ -1,0 +1,446 @@
+/* @import Font Awesome from CDN */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+        body, html {
+            margin: 0;
+            height: 100%;
+        }
+        h1 {
+          padding: 0 1rem;
+          font-family: "raleway", sans-serif;
+          font-size: 1.25rem;
+          font-weight:700;
+          letter-spacing:0.2px;
+          margin:-1px
+        }
+        h3 {
+             padding-top: 0.5rem;
+          color: #000;
+          font-family: "raleway", sans-serif;
+          font-size: 1.25rem;
+          text-align: left;
+          font-weight: 700;
+          letter-spacing: 0.2px;
+          /* padding-left: 1rem; */
+          margin: -1px;
+        }
+
+        p {
+              padding: 0;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1.2rem;
+    /* margin: 1rem; */
+    font-weight: 500;
+
+        }
+         h4 {
+          padding: 0;
+          color: #000;
+          font-family: "raleway", sans-serif;
+          font-size: 1.6rem;
+          text-align: left;
+          font-weight: 700;
+          letter-spacing: 0.2px;
+          padding-left: 1rem;
+          margin: -1px;
+        }
+         h5 {
+          padding: 0;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.4rem;
+    margin: 1rem;
+    font-weight: 500;
+
+        }
+        .container-label {
+            text-align: left;   /* Ensures all children are left-aligned */
+            margin: 1rem;
+        }
+         .label {
+            display: inline-block;
+            margin: 0rem;
+            font-family: Montserrat, sans-serif;
+            text-align: center;
+            padding: 5px 10px;
+            font-size: 0.7rem;
+            color: #000000;
+            background-color: #d0e1f7;
+            border-radius: 0.2rem;
+            white-space: nowrap;
+            font-weight: 600;
+        }
+        .widget-container {
+            position: relative;
+            width: 95%; /* Adjust width based on widget content */
+            margin: auto; /* Center container if needed */
+        }
+
+        /* Overlay mask to disable interactions */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+            z-index: 10; /* Ensure it sits above the widget */
+            cursor: none; /* Shows a "not allowed" cursor on hover */
+        }
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3rem;
+            background-color: rgb(255 255 255);
+            z-index: 1000;
+        }
+        /* Main container for the search options */
+        .search-options {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px 0;
+        }
+
+        /* Individual option box */
+        .option-box {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            margin: 1rem 0.5rem;
+            background-color: #ffffff;
+            border: solid 1px #d3d3d3;
+            border-radius: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000000;
+            font-family: 'Raleway';
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            cursor: none;
+        }
+
+        .option-box:hover {
+            background-color: #ebf1f8;
+        }
+
+        /* Icon style */
+        .option-box i {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin-right: 15px;
+        }
+
+        .travel-tips-box {
+            /* max-width: 600px; */
+            margin: 20px 0.5rem;
+            padding: 20px;
+            background: #ebf1f8;
+            border-radius: 1rem;
+        }
+
+        .subcategory {
+            margin-bottom: 20px;
+        }
+
+        .subcategory-header {
+            font-size: 1rem;
+            font-weight: 550;
+            font-family: 'Raleway';
+            text-align: left;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .tip-item {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            margin-bottom: 8px;
+            font-size: 0.7rem;
+            font-family: 'Montserrat';
+            color: #000000;
+            font-weight: 500;
+        }
+
+        .tip-item i {
+            margin-right: 1.5rem;
+            font-size: 2rem;
+            color: #555353;
+        }
+        
+        .mapboxgl-popup-content {
+
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        .marker {
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        /* Specific icons for categories */
+        .marker.landmark {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2rPxPbIz9sYxoNZGK_T-3P45oMmVc0aKVHeecGXhqYV4jdL0NpYnZzLVOc3HZWeZY5yTClsY3vyF3M1Yyeu-utq-K8CEbwiLkJYhvVSc4UANrPwbNkXHl4KUY9J8sefebbqVmt6ZiJjbZo13uk0A04zg1jLwM1Gv0e41roOkNpKv0c_gS45bpn-MQ77fE/s1600/Marker%20Voyagou%20Map%202.png');
+        }
+        .marker.park {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4WkyQypmSDCAM5I1X1vkvsfds1x7U3PjruTaN4ujqWDHPmeMaxQj3cq3l3FmHLDWsyAfLTkxv3gNP4ybZWLYbCbtn1E7oUfrt8hdCWBYnvYm2Q9MXzrb8I2ltGchTrQH_vaTwrr6erRUQcJeDr1zxKz0OmuzqxwoCXgNQQKdl9d3iuYF_JsFsWnui6ox/s1600/Marker%20Voyagou%20Map%203.png');
+        }
+        .marker.museum {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3q0IGwEVA6uSJsKjL8IIPtSXf1buoCkccKP0gzaQDNlfPLC6H29QGFCD2HQr4qjkTiSnl18qXIwIlFgyV9n6x_0agxb2mkO0vO3yfS7g6xT8BPlw0Nf2CVLk-jR9o2rZjG8pv4PjUyzXBbkO-AVkJIKwto3rj5N9yWGA-VQiNywz_Jle6EVqF3cudpZlq/s1600/Marker%20Voyagou%20Map%204.png');
+        }
+        .marker.culture {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WCG4jV0KYiU8oBsalzgnFCSMKHA4MF18hpsg__kMemSX5ZPp7Dbpbn8l9M5gvUPK-Me7gFrMor-0-BaxR36A270rEZFlFFumTLvRpesetW0lmfJV77rWpEFR6SdevWBZTnZ5wRgb1fQcx3GW3ps69BcpMqgTvE8iSyDZCWTIfJFxPHmz3Y1yAXkWaP5s/s1600/Marker%20Voyagou%20Map.png');
+        }
+  .marker.sightseeing {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRBxuRI5x2ZmEzUMNir-3X5FzlJGxXoNukf8VK2wlrkRRI2txALHu9P3wK01hPjiX29inVQkPR_aFphsi_3bUU22s5FQ3xeutZGZmhAiHZ-XmGBrQdgMHIv0s3xJ8Vl7hZ9F7y1w_ve5HEFQhMQ6al9T-zQ-tPPPtQUp5XqmpVDf8QwFOAaBdvRj9Im9Xd/s1600/Marker%20Voyagou%20Map%205.png');
+        }
+        .filter-buttons {
+            position: absolute;
+            padding: 0rem;
+            top: 80px;
+            left: 10px;
+            z-index: 1;
+            border-radius: 1rem;
+            background: #fff;
+            border: solid 1px #e0e0e0;
+
+        }
+        .filter-buttons button {
+            margin: 0.3rem;
+            color: #000;
+            font-family:raleway;
+            font-size:8px;
+            border:solid 0px #e0e0e0;
+            border-radius:1rem;
+            padding: 0.5rem;
+            width:60px;
+            background: #fff;
+              font-weight: 600;
+              letter-spacing: 0px;
+              cursor:none;
+        }
+        .filter-buttons button:focus {
+            color:#fff;
+            background: #2234ff;
+        }
+        .filter-buttons button.active {
+            color: #fff;
+            background: #2234ff;
+        }
+
+        /* Popup styling */
+        .popup-content {
+            width: 200px;
+            text-align: center;
+        }
+        .popup-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.7rem;
+        }
+        .popup-content h3 {
+            margin: 10px 0;
+            font-family: raleway;
+        }
+        .popup-content button {
+            padding: 0.5rem;
+            background-color: #000;
+            font-family: 'Raleway';
+            font-weight: 600;
+            color: white;
+            border-radius: 0.5rem;
+            cursor: none;
+            margin: 0.5rem;
+          line-height: 0.8rem;
+        }
+        .popup-content button.bookmarked {
+            background-color: #2335ff;
+        }
+        .popup-content button.bookmarked:hover {
+            background-color: ;
+        }
+        .popup-content button:hover {
+            background-color: ;
+        }
+        /* Bookmark list button */
+        .bookmark-list-button {
+            position: absolute;
+            font-size: 0px;
+            font-family: poppins;
+            top: 10px;
+            left: 9px;
+            z-index: 2;
+            padding: 0.6rem;
+            background: #2234ff;
+            border: 0px solid #ccc;
+            border-radius:1rem;
+            margin: 0.5rem;
+            cursor: none;
+            color:#fff;
+            width: 60px;
+        }
+        .bookmark-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        /* Bookmark list modal */
+        #bookmarkModal {
+            display: none;
+            position: fixed;
+            z-index: 3;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        #bookmarkModalContent {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 1rem;
+            width: 80%;
+            height: 50%;
+            overflow-y: auto;
+        }
+        #bookmarkModalContent ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #bookmarkModalContent li {
+                margin: 10px 0;
+                padding: 1rem;
+                background: #f1f1f1;
+                border-radius: 1rem;
+                display: flex;
+                align-items: center;
+                /*justify-content: space-between;*/
+                font-size: 0.7rem;
+                color: #000;
+                /* letter-spacing: -0.3px; */
+                font-weight: 500;
+                font-family: 'Montserrat';
+                line-height: 1.2;
+        }
+        #bookmarkModalContent img {
+            width: 30%;
+            height: 100%;
+            margin-right: 1.5rem;
+            border-radius: 0.5rem;
+        }
+
+        .mapboxgl-popup-close-button {
+
+            margin: 1.2rem;
+            font-size: 2rem;
+            color: #aaa9a9;
+            background: #e3e3e330;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+          }
+        /* Close button styling */
+        .close-button {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: #ffffff00;
+            color: #e3e3e3;
+            border: none;
+            border-radius: 3px;
+            padding: 0;
+            cursor: pointer;
+        }
+        .remove-bookmark-btn {
+            background-color: #ff5c5c;
+            border: none;
+            padding: 5px 10px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .remove-bookmark-btn:hover {
+            background-color: #d9534f;
+        }
+        /* Floating button styles */
+        .floating-button {
+            position: fixed;
+            bottom: 120px;
+            left: 20px;
+            background-color: #2234ff;
+            color: white;
+            border: none;
+            border-radius: 1rem;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            text-align: center;
+            cursor: none;
+            z-index: 4;
+          line-height: 1rem;
+        }
+        /* Popup modal for the floating button */
+        #floatPopup {
+            display: none;
+            position: fixed;
+            z-index: 5;
+            left: 0;
+            top: 0;
+            width: 100%;
+              max-width: 800px;
+            height: 100%;
+            overflow-x: auto;
+            background-color: #fff;
+        }
+        #floatPopupContent {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 0;
+            border-radius: 5px;
+            width: 95%;
+            height: 100%;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        /* Close button for floating popup */
+        .close-float-popup {
+            background-color: #ff5c5c00;
+            position: absolute;
+            color: #ffffff99;
+            top: 1rem;
+            right:0.5rem;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: none;
+        }
