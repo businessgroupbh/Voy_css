@@ -11,7 +11,7 @@ img {
     height: auto;
     max-width: 600px;
     vertical-align: middle;
-    margin: 0 auto 1rem;
+    margin: 0 auto -1rem;
     border-radius: 1rem;
     object-position: center;
     display: block;
