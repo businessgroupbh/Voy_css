@@ -14,7 +14,7 @@
        font-weight:600;
        color:#000;
        padding-bottom: 1rem;
-       line-height: 4rem;
+       line-height: 1.5rem;
 
    }
    body {
@@ -23,10 +23,10 @@
    }
 
    article {
-          width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
+       width: 100%;
+       max-width: 1000px;
+         margin: 0 auto;
+   }
 
    header {
        background-position: center;
@@ -64,19 +64,21 @@
    }
 
    .title {
-       font-size: 2.5rem;
+       font-size: 2rem;
        font-weight: bold;
        margin: 20px 0;
        font-family: raleway, sans-serif;
+     line-height: 1.2;
    }
 
    .subtitle {
-       font-size: 1.125rem;
-       opacity: 0.8;
-       color: #fdfbfb;
-       font-weight: 550;
-       font-family: 'Montserrat';
-       line-height: 1.4rem;
+       font-size: 1.1rem;
+    opacity: 0.8;
+    color: #fdfbfb;
+    font-weight: 520;
+    font-family: raleway;
+    line-height: 1.4rem;
+    width: 70%;
    }
 
    .summary {
@@ -116,10 +118,10 @@
 
    .main-article p {
            font-family: 'Montserrat';
-       font-size:0.9rem;
-       line-height: 1.2;
-       color: #000;
-       margin-bottom: 20px;
-       text-align: justify;
-       font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+    color: #252525;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 410;
    }
