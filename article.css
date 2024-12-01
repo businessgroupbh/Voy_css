@@ -12,7 +12,7 @@ img {
     max-width: 600px;
     vertical-align: middle;
     margin: 0 auto -1rem;
-    border-radius: 1rem;
+    border-radius: 0rem;
     object-position: center;
     display: block;
     margin-left: auto;
