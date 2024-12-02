@@ -44,10 +44,11 @@ img {
        background-position: center;
        background-size: cover;
        padding: 40px;
-       border-radius:1rem;
+       border-radius:0rem;
        color: #fff;
        /* text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);*/
        font-family: raleway, sans-serif;
+      margin: -1rem;
    }
 
    .upper-header {
