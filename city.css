@@ -264,15 +264,17 @@
             font-family: raleway;
         }
         .popup-content button {
-            padding: 0.5rem;
-            background-color: #000;
+            padding: 0.7rem;
+            background-color: #c0c0c080;
             font-family: 'Raleway';
             font-weight: 600;
-            color: white;
+            color: #000000;
             border-radius: 0.5rem;
+            border: 1px solid #ffffff00;
             cursor: none;
             margin: 0.5rem;
-          line-height: 0.8rem;
+            line-height: 0.8rem;
+            outline: none;
         }
         .popup-content button.bookmarked {
             background-color: #2335ff;
