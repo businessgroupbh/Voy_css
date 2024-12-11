@@ -13,7 +13,7 @@
       .grid-container-cap {
       display: flex;
       background-color: #fff0;
-      padding: 1rem 0rem 2rem;
+      padding: 1rem 0.7rem 2rem;
       grid-gap: 0px 10px;
       overflow-x: auto;
       overflow-y: hidden;
