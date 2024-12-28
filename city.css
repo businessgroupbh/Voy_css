@@ -478,11 +478,11 @@
         .mapboxgl-popup-close-button {
 
             margin: 1.2rem;
-            font-size: 2rem;
-            color: #aaa9a9;
-            background: #e3e3e330;
-            padding: 0.5rem;
-            border-radius: 0.5rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: #c0c0c080;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
           }
         /* Close button styling */
         .close-button {
