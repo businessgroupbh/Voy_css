@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
   a {
   text-decoration:none}
@@ -65,7 +67,7 @@
     }
     .caption-cap {
         font-size: 1.2rem;
-        font-family: 'raleway';
+        font-family: 'Kumbh Sans', sans-serif
         font-weight: 600;
         color: #000;
         left: 0;
@@ -78,7 +80,7 @@
     }
     .sub-caption-cap {
         font-size: 0.8rem;
-        font-family: 'montserrat';
+        font-family: 'Kumbh Sans', sans-serif;
         font-weight: 500;
         color: #000000;
         left: 0;
@@ -91,7 +93,7 @@
     }
   .sub-caption-cap2 {
         font-size: 0.8rem;
-        font-family: 'montserrat';
+        font-family: 'Kumbh Sans', sans-serif;
         font-weight: 600;
         color: #007bff;
         left: 0;
@@ -109,7 +111,7 @@
         }
         h1 {
           padding: 0 1rem;
-          font-family: "raleway", sans-serif;
+          font-family: 'Kumbh Sans', sans-serif;
           font-size: 1.25rem;
           font-weight:700;
           letter-spacing:0.2px;
@@ -118,7 +120,7 @@
         h3 {
              padding-top: 0.5rem;
           color: #000;
-          font-family: "raleway", sans-serif;
+          font-family: 'Kumbh Sans', sans-serif;
           font-size: 1.25rem;
           text-align: left;
           font-weight: 700;
@@ -130,7 +132,7 @@
         p {
               padding: 0;
     color: #000;
-    font-family: 'Montserrat';
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 0.8rem;
     text-align: justify;
     line-height: 1.2rem;
@@ -141,7 +143,7 @@
          h4 {
           padding: 0;
           color: #000;
-          font-family: "raleway", sans-serif;
+          font-family: 'Kumbh Sans', sans-serif;
           font-size: 1.6rem;
           text-align: left;
           font-weight: 700;
@@ -152,7 +154,7 @@
          h5 {
           padding: 0;
     color: #000;
-    font-family: 'Montserrat';
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 0.9rem;
     text-align: justify;
     line-height: 1.4rem;
@@ -167,7 +169,7 @@
          .label {
             display: inline-block;
             margin: 0rem;
-            font-family: Montserrat, sans-serif;
+            font-family: 'Kumbh Sans', sans-serif;
             text-align: center;
             padding: 5px 10px;
             font-size: 0.7rem;
@@ -223,7 +225,7 @@
             cursor: pointer;
             text-decoration: none;
             color: #000000;
-            font-family: 'Raleway';
+            font-family:'Kumbh Sans', sans-serif;
             font-size: 0.9rem;
             font-weight: 600;
             transition: background-color 0.3s;
@@ -256,7 +258,7 @@
         .subcategory-header {
             font-size: 1rem;
             font-weight: 550;
-            font-family: 'Raleway';
+            font-family: 'Kumbh Sans', sans-serif;
             text-align: left;
             margin-bottom: 1rem;
             color: #333;
@@ -268,7 +270,7 @@
             text-align: left;
             margin-bottom: 8px;
             font-size: 0.7rem;
-            font-family: 'Montserrat';
+            font-family: 'Kumbh Sans', sans-serif;
             color: #000000;
             font-weight: 500;
         }
@@ -325,7 +327,7 @@
         .filter-buttons button {
             margin: 0.3rem;
             color: #000;
-            font-family:raleway;
+            font-family:'Kumbh Sans', sans-serif;
             font-size:8px;
             border:solid 0px #e0e0e0;
             border-radius:1rem;
@@ -357,12 +359,12 @@
         }
         .popup-content h3 {
             margin: 10px 0;
-            font-family: raleway;
+            font-family: 'Kumbh Sans', sans-serif;
         }
         .popup-content button {
             padding: 0.7rem;
             background-color: #c0c0c080;
-            font-family: 'Raleway';
+            font-family: 'Kumbh Sans', sans-serif;
             font-weight: 600;
             color: #000000;
             border-radius: 0.5rem;
@@ -385,7 +387,7 @@
         .bookmark-list-button {
             position: absolute;
             font-size: 0px;
-            font-family: poppins;
+            font-family: 'Kumbh Sans', sans-serif;
             top: 10px;
             left: 9px;
             z-index: 2;
@@ -445,7 +447,7 @@
                 color: #000;
                 /* letter-spacing: -0.3px; */
                 font-weight: 500;
-                font-family: 'Montserrat';
+                font-family: 'Kumbh Sans', sans-serif;
                 line-height: 1.2;
         }
         #bookmarkModalContent img {
