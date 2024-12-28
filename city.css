@@ -12,6 +12,24 @@
   a {
   text-decoration:none}
   
+  .head-picture{
+    width: 111%;
+    height: auto;
+    border-radius: 0rem;
+    margin: -5% -5.5% -2rem;
+    max-width: 115%;
+  }
+  .icon-round{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin: 0rem 1rem;
+  }
+  
+  .icon-round img{
+    border-radius: 0.5rem;
+  }
+  
       .grid-container-cap {
       display: flex;
       background-color: #fff0;
@@ -201,7 +219,7 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            height: 3rem;
+            height: 30px;
             background-color: rgb(255 255 255);
             z-index: 1000;
         }
@@ -245,7 +263,7 @@
 
         .travel-tips-box {
             /* max-width: 600px; */
-            margin: 20px 0.5rem;
+            margin: 1rem 0.5rem;
             padding: 20px;
             background: #ebf1f8;
             border-radius: 1rem;
@@ -257,7 +275,7 @@
 
         .subcategory-header {
             font-size: 1rem;
-            font-weight: 550;
+            font-weight: 700;
             font-family: 'Kumbh Sans', sans-serif;
             text-align: left;
             margin-bottom: 1rem;
@@ -269,7 +287,7 @@
             align-items: center;
             text-align: left;
             margin-bottom: 8px;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             font-family: 'Kumbh Sans', sans-serif;
             color: #000000;
             font-weight: 500;
@@ -492,8 +510,8 @@
         /* Floating button styles */
         .floating-button {
             position: fixed;
-            bottom: 120px;
-            left: 20px;
+            bottom: 4rem;
+            left: 1.1rem;
             background-color: #2234ff;
             color: white;
             border: none;
@@ -503,7 +521,7 @@
             font-size: 24px;
             text-align: center;
             cursor: none;
-            z-index: 4;
+            z-index: 2;
           line-height: 1rem;
         }
         /* Popup modal for the floating button */
@@ -527,7 +545,7 @@
             background-color: #fff;
             padding: 0;
             border-radius: 5px;
-            width: 95%;
+            width: 90%;
             height: 100%;
             text-align: center;
             margin-top: 1rem;
