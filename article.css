@@ -2,6 +2,8 @@
    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
    * {
        box-sizing: border-box;
        margin: 0;
@@ -21,7 +23,7 @@ img {
 }
 
    htitle{
-       font-family: raleway, sans-serif;
+       font-family: 'Kumbh Sans', sans-serif;
        font-size: 1.5rem;
        font-weight:600;
        color:#000;
@@ -68,7 +70,7 @@ img {
        color:#000;
        opacity:;
        font-size: 0.875rem;
-       font-family: raleway, sans-serif;
+       font-family: 'Kumbh Sans', sans-serif;
            background: #fff;
        padding: 0.5rem;
        width: fit-content;
@@ -80,7 +82,7 @@ img {
        font-size: 2rem;
        font-weight: bold;
        margin: 20px 0;
-       font-family: raleway, sans-serif;
+       font-family:'Kumbh Sans', sans-serif;
      line-height: 1.2;
      text-shadow: 0 0 20px #000000;
    }
@@ -132,7 +134,7 @@ img {
    }
 
    .main-article p {
-           font-family: 'Montserrat';
+           font-family: 'Kumbh Sans', sans-serif;
     font-size: 0.9rem;
     line-height: 1.6rem;
     color: #252525;
