@@ -317,19 +317,19 @@
         }
         /* Specific icons for categories */
         .marker.landmark {
-            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2rPxPbIz9sYxoNZGK_T-3P45oMmVc0aKVHeecGXhqYV4jdL0NpYnZzLVOc3HZWeZY5yTClsY3vyF3M1Yyeu-utq-K8CEbwiLkJYhvVSc4UANrPwbNkXHl4KUY9J8sefebbqVmt6ZiJjbZo13uk0A04zg1jLwM1Gv0e41roOkNpKv0c_gS45bpn-MQ77fE/s1600/Marker%20Voyagou%20Map%202.png');
+            background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-landmark.png');
         }
         .marker.park {
-            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4WkyQypmSDCAM5I1X1vkvsfds1x7U3PjruTaN4ujqWDHPmeMaxQj3cq3l3FmHLDWsyAfLTkxv3gNP4ybZWLYbCbtn1E7oUfrt8hdCWBYnvYm2Q9MXzrb8I2ltGchTrQH_vaTwrr6erRUQcJeDr1zxKz0OmuzqxwoCXgNQQKdl9d3iuYF_JsFsWnui6ox/s1600/Marker%20Voyagou%20Map%203.png');
+            background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-park.png');
         }
         .marker.museum {
-            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3q0IGwEVA6uSJsKjL8IIPtSXf1buoCkccKP0gzaQDNlfPLC6H29QGFCD2HQr4qjkTiSnl18qXIwIlFgyV9n6x_0agxb2mkO0vO3yfS7g6xT8BPlw0Nf2CVLk-jR9o2rZjG8pv4PjUyzXBbkO-AVkJIKwto3rj5N9yWGA-VQiNywz_Jle6EVqF3cudpZlq/s1600/Marker%20Voyagou%20Map%204.png');
+            background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-museum.png');
         }
         .marker.culture {
-            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WCG4jV0KYiU8oBsalzgnFCSMKHA4MF18hpsg__kMemSX5ZPp7Dbpbn8l9M5gvUPK-Me7gFrMor-0-BaxR36A270rEZFlFFumTLvRpesetW0lmfJV77rWpEFR6SdevWBZTnZ5wRgb1fQcx3GW3ps69BcpMqgTvE8iSyDZCWTIfJFxPHmz3Y1yAXkWaP5s/s1600/Marker%20Voyagou%20Map.png');
+            background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-culture.png');
         }
   .marker.sightseeing {
-            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRBxuRI5x2ZmEzUMNir-3X5FzlJGxXoNukf8VK2wlrkRRI2txALHu9P3wK01hPjiX29inVQkPR_aFphsi_3bUU22s5FQ3xeutZGZmhAiHZ-XmGBrQdgMHIv0s3xJ8Vl7hZ9F7y1w_ve5HEFQhMQ6al9T-zQ-tPPPtQUp5XqmpVDf8QwFOAaBdvRj9Im9Xd/s1600/Marker%20Voyagou%20Map%205.png');
+            background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-sightseeing.png');
         }
         .filter-buttons {
             position: absolute;
