@@ -1,4 +1,4 @@
-const markers = [];
+    const markers = [];
 
 
 // Store the currently selected marker
@@ -35,7 +35,8 @@ marker.getElement().addEventListener('click', () => {
 
     map.flyTo({ 
         center: [lng, lat], 
-        zoom: 14, 
+        zoom: 16, 
+      	pitch: 10,
         offset: [0, -150] 
     });
     openCard(card);
@@ -56,7 +57,8 @@ card.addEventListener('click', () => {
 
     map.flyTo({ 
         center: [lng, lat], 
-        zoom: 14, 
+        zoom: 16,
+      	pitch: 10,
         offset: [0, -150] 
     });
     openCard(card);
@@ -152,3 +154,4 @@ document.querySelectorAll('.category').forEach(category => {
         switchTab(categoryName);
     });
 });
+    
