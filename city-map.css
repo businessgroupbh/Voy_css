@@ -177,6 +177,7 @@
             font-weight: bold;
             margin-top: 10px;
               padding: 0 0.5rem;
+          line-height: 1.2;
         }
 
         .place-card .description {
@@ -336,7 +337,7 @@
     margin: 1rem auto;
     gap: 0.2rem;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0rem;
     align-items: center;
 }
 
