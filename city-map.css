@@ -110,7 +110,7 @@
         .category {
             color: #000;
             padding: 10px 20px;
-            cursor: pointer;
+            cursor: inherit;
             margin: 0 5px;
             text-align: center;
             border-radius: 2rem;
@@ -160,7 +160,7 @@
             background-color: #fff;
           	color:#000;
             border-radius: 1.5rem;
-            cursor: none;
+            cursor: inherit;
             text-align: center;
             transition: transform 0.3s ease;
             position: relative;
@@ -202,7 +202,7 @@
             border-radius: 50%;
             width: 40px;
             height: 40px;
-            cursor: pointer;
+            cursor: inherit;
             font-size: 18px;
             display: flex;
             justify-content: center;
@@ -235,14 +235,13 @@
             background-color: #ffffff;
             border: solid 1px #d3d3d3;
             border-radius: 1.5rem;
-            cursor: pointer;
+            cursor: inherit;
             text-decoration: none;
             color: #000000;
             font-family: 'Kumbh Sans', sans-serif;
             font-size: 0.9rem;
             font-weight: 600;
             transition: background-color 0.3s;
-            cursor: none;
         }
 
         .option-box:hover {
@@ -342,7 +341,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: none;
+    cursor: inherit;
   text-align: center;
   background: #e3e3e3;
     color: #fff;
