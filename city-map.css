@@ -160,7 +160,7 @@
             background-color: #fff;
           	color:#000;
             border-radius: 1.5rem;
-            cursor: pointer;
+            cursor: none;
             text-align: center;
             transition: transform 0.3s ease;
             position: relative;
@@ -342,7 +342,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
+    cursor: none;
   text-align: center;
   background: #e3e3e3;
     color: #fff;
@@ -351,6 +351,10 @@
     height: 2rem;
   width: 3rem;
 }
+.icon-button-car.active {
+            transform: scale(0.9);
+          
+        }
 
 .icon-card {
     width: 50px;
