@@ -80,9 +80,7 @@
       }
 
         #map {
-            height: 97.6vh; /* Adjusted for Blogger page */
-            width: 100%;
-          position: absolute;
+          
         }
 
         #category-container {
