@@ -4,27 +4,31 @@
   
   /* Marker styles for each category */
 .marker-landmark {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-landmark.png');
 }
 
 .marker-park {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-park.png');
 }
 
 .marker-museum {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-museum.png');
 }
 
 .marker-culture {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-culture.png');
 }
 
 .marker-sightseeing {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-sightseeing.png');
 }
 
 .marker-restaurant {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkME51ceunJt_DxAIzmatbkAj2JXJEPx8X2A&s');
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-restaurant.png');
+}
+
+.marker-hotel {
+    background-image: url('https://raw.githubusercontent.com/businessgroupbh/Voy_css/refs/heads/main/Images/icons/marker-hotel.png');
 }
 
 /* Common styles for all markers */
