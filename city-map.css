@@ -80,7 +80,8 @@
       }
 
         #map {
-          
+          height: 97.6vh;
+          width: 100%;
         }
 
         #category-container {
