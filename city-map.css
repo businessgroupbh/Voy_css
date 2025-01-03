@@ -42,7 +42,9 @@
 }
 
   
-
+a {
+    cursor: none;
+}
 
         body, html {
             margin: 0;
