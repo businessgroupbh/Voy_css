@@ -26,12 +26,12 @@ function addMarkers() {
 marker.getElement().addEventListener('click', () => {
     // Reset the size of the previously selected marker
     if (selectedMarker) {
-        resizeMarker(selectedMarker, '30px'); // Default size
+        resizeMarker(selectedMarker, '25px'); // Default size
     }
 
     // Update the size of the clicked marker
     selectedMarker = marker.getElement();
-    resizeMarker(selectedMarker, '40px'); // Larger size for selected marker
+    resizeMarker(selectedMarker, '30px'); // Larger size for selected marker
 
     map.flyTo({ 
         center: [lng, lat], 
@@ -48,12 +48,12 @@ marker.getElement().addEventListener('click', () => {
 card.addEventListener('click', () => {
     // Reset the size of the previously selected marker
     if (selectedMarker) {
-        resizeMarker(selectedMarker, '30px'); // Default size
+        resizeMarker(selectedMarker, '25px'); // Default size
     }
 
 // Find and update the size of the corresponding marker
     selectedMarker = marker.getElement();
-    resizeMarker(selectedMarker, '40px'); // Larger size for selected marker
+    resizeMarker(selectedMarker, '30px'); // Larger size for selected marker
 
     map.flyTo({ 
         center: [lng, lat], 
