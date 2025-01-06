@@ -135,12 +135,12 @@
     }
     .filter-btn {
    
-		background-color: #f6f6f6;
+		background-color: #fff;
       color: #000;
       border: solid 0px #d3d3d3;
-      padding: 0.5rem;
+      padding: 0rem;
       border-radius: 1.5rem;
-      margin: 1rem 0.2rem 1.5rem;
+      margin: 1rem 0rem 1.5rem;
       height: 65px;
       width: 17%;
       max-width: 100px;
