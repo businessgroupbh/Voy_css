@@ -4,12 +4,15 @@
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+   body
+{
+ max-width: 800px;
+    margin: 0 auto;}
    * {
        box-sizing: border-box;
        margin: 0;
        padding: 0;
-          max-width: 800px;
-    margin: 0 auto;
+         
    }
 img {
     height: auto;
@@ -78,6 +81,7 @@ img {
        width: fit-content;
        border-radius: 0.2rem;
        font-weight: 550;
+
    }
 
    .title {
@@ -98,6 +102,7 @@ img {
     line-height: 1.4rem;
     width: 70%;
     text-shadow: 0 0 20px #000000;
+
    }
 
    .summary {
@@ -144,3 +149,6 @@ img {
     text-align: justify;
     font-weight: 500;
    }
+
+   
+    
