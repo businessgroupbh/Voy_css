@@ -180,16 +180,18 @@ a {
         }
 
         .place-card .title {
-            font-weight: bold;
+            font-weight: 700;
+            font-size: 1.2rem;
             margin-top: 10px;
-              padding: 0 0.5rem;
-          line-height: 1.2;
+            padding: 0 0.5rem;
+            line-height: 1.2;
         }
 
         .place-card .description {
-            font-size: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
             margin-top: 5px;
-              padding: 0 0.5rem;
+            padding: 0 0.5rem;
         }
 
         .place-card.active {
