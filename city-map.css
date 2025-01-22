@@ -46,6 +46,7 @@ a {
     cursor: none;
 }
 
+
         body, html {
             margin: 0;
             padding: 0;
@@ -373,4 +374,23 @@ a {
     margin-bottom: 8px;
   cursor: inherit;
   color: #000;
+}
+
+  .header-city-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically in the center */
+    gap: 1rem; /* Add spacing between the elements */
+}
+  
+ .button-city-map {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: inherit;
+    display: flex;
+    align-items: center;
 }
