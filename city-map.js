@@ -154,4 +154,47 @@ document.querySelectorAll('.category').forEach(category => {
         switchTab(categoryName);
     });
 });
-    
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // Default placeholder image
+    const placeholderImage = "https://assets-v2.lottiefiles.com/a/28fd8178-116b-11ee-b8ef-9385bb9cd4a3/yBmIbzTali.gif";
+
+    // Select all images in the cards
+    const lazyImages = document.querySelectorAll("img");
+
+    // Replace the real image with the placeholder initially
+    lazyImages.forEach(image => {
+        image.dataset.src = image.src; // Store the real image URL in a data attribute
+        image.src = placeholderImage; // Set the placeholder image as the initial src
+    });
+
+    // Function to handle image load errors
+    const handleImageError = (img) => {
+        img.src = placeholderImage; // Replace with the placeholder image
+    };
+
+    // IntersectionObserver to load images when they come into view
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src; // Replace the placeholder with the real image
+
+                // Add error handling
+                img.onerror = () => handleImageError(img);
+
+                img.onload = () => img.removeAttribute("data-src"); // Remove the data-src attribute after loading
+                observer.unobserve(img); // Stop observing once the image is loaded
+            }
+        });
+    });
+
+    // Observe all lazy images
+    lazyImages.forEach(image => observer.observe(image));
+});
+</script>
