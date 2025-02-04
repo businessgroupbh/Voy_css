@@ -159,7 +159,11 @@ document.querySelectorAll('.category').forEach(category => {
 
 
 
-<script>
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     // Default placeholder image
     const placeholderImage = "https://assets-v2.lottiefiles.com/a/28fd8178-116b-11ee-b8ef-9385bb9cd4a3/yBmIbzTali.gif";
