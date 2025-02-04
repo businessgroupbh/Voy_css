@@ -356,13 +356,13 @@ a {
     flex-direction: column;
     align-items: center;
     cursor: inherit;
-  text-align: center;
-  background: #e3e3e3;
+    text-align: center;
+    background: #e3e3e3;
     color: #fff;
-    padding: 0.5rem 0rem;
+    padding: 0.3rem 0rem;
     border-radius: 2rem;
     height: 2rem;
-  width: 3rem;
+    width: 2.6rem;
 }
 .icon-button-car.active {
             transform: scale(0.9);
@@ -372,7 +372,7 @@ a {
 .icon-card {
     width: 50px;
     height: auto;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
   cursor: inherit;
   color: #000;
 }
@@ -394,4 +394,9 @@ a {
     cursor: inherit;
     display: flex;
     align-items: center;
+}
+
+.fa-solid, .fas {
+    font-weight: 600;
+    font-size: 1.1rem;
 }
