@@ -161,7 +161,7 @@ a {
           	color:#000;
             border-radius: 1.5rem;
             cursor: inherit;
-            text-align: center;
+            text-align: left;
             transition: transform 0.3s ease;
             position: relative;
         }
