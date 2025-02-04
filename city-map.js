@@ -201,4 +201,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Observe all lazy images
     lazyImages.forEach(image => observer.observe(image));
 });
-</script>
+
