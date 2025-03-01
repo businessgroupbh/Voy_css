@@ -2,7 +2,7 @@
    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Lexend:wght@100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet');
 
    body
 {
@@ -28,7 +28,7 @@ img {
 }
 
    htitle{
-       font-family: 'Kumbh Sans', sans-serif;
+       font-family: 'Outfit', sans-serif;
        font-size: 1.5rem;
        font-weight:700;
        color:#000;
@@ -75,7 +75,7 @@ img {
        color:#000;
        opacity:;
        font-size: 0.875rem;
-       font-family: 'Kumbh Sans', sans-serif;
+       font-family: 'Outfit', sans-serif;
            background: #fff;
        padding: 0.5rem;
        width: fit-content;
@@ -88,7 +88,7 @@ img {
        font-size: 2rem;
        font-weight: bold;
        margin: 20px 0;
-       font-family:'Kumbh Sans', sans-serif;
+       font-family:'Outfit', sans-serif;
      line-height: 1.2;
      text-shadow: 0 0 20px #000000;
    }
@@ -98,7 +98,7 @@ img {
     opacity: 0.8;
     color: #fdfbfb;
     font-weight: 520;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     line-height: 1.4rem;
     width: 70%;
     text-shadow: 0 0 20px #000000;
@@ -141,7 +141,7 @@ img {
    }
 
    .main-article p {
-           font-family: 'Kumbh Sans', sans-serif;
+           font-family: 'Outfit', sans-serif;
     font-size: 0.9rem;
     line-height: 1.6rem;
     color: #252525;
