@@ -1,4 +1,4 @@
- 
+
   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Lexend:wght@100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet');
   
@@ -147,9 +147,11 @@ a {
             flex-wrap: nowrap;
           background-color: #fff;
               padding: 0rem;
+              width: 100%;
         }
   		.tab-intro {
               padding: 1rem 2rem;
+          		width: 85%;
         }
 
         .place-card {
@@ -227,13 +229,23 @@ a {
             background-color: #fff;
             border-radius: 8px;
             padding: 10px 0;
+            display: flex;
+            overflow-x: auto;
+            overflow-y: hidden;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            grid-gap: 1rem;
+        }
+  .search-options::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for WebKit browsers */
         }
 
         /* Individual option box */
         .option-box {
-            display: flex;
+            display: grid;
             align-items: center;
-            padding: 0.9rem 0.7rem;
+            text-align: center;
+            padding:0 0 1rem 0;
             margin: 1rem 0rem;
             background-color: #f7f9fd;
             border: solid 0px #d3d3d3;
@@ -255,11 +267,11 @@ a {
         .option-box i {
           font-size: 1.5rem;
           color: #000;
-          margin-right: 15px;
-          background: #f7f9fd;
+          margin-right: 0px;
+          background: ;
           padding: 0.7rem;
-          width: 25px;
-          height: 20px;
+          width: 5rem;
+          height: 2rem;
           text-align: center;
           border-radius: 15px;
           align-items: center;
@@ -267,10 +279,12 @@ a {
         }
   
        .icon-round{
-        width: 1.5rem;
-        height: 1.5rem;
-        border-radius: 0.2rem;
-        margin: 0rem 1rem;
+         display:none;
+           width: 2rem;
+          height: 2rem;
+          border-radius: 0.2rem;
+          margin: 0rem auto;
+          padding: 1rem;
       }
 
       .icon-round img{
@@ -403,3 +417,242 @@ a {
           background-color: rgb(255 255 255);
           z-index: 2;
       }
+  
+  
+.block {
+    background-color: #fff;
+    padding: 1rem 0px 0px;
+    margin: 0;
+    border-radius: 2rem;
+}
+  
+.grid-container-cap {
+      display: flex;
+      background-color: #fff0;
+      padding: 0;
+      grid-gap: 0px 25px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      max-height: 500px;
+      cursor: none;
+      margin: 0;
+    }
+
+    .grid-item-cap {
+      position: relative;
+      flex: 0 0 auto;
+      background-color: #f7f9fd;
+      border: 1px solid rgb(247 249 253);
+      padding: 0px 0px 0px 0px;
+      height: auto;
+      width: 19rem;
+      border-radius: 1.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 13px;
+      text-align: left;
+      box-shadow: none;
+      cursor: none;
+    }
+
+    .grid-container-cap::-webkit-scrollbar {
+      display: none;
+    }
+
+    .grid-item-cap img {
+      position: relative;
+      width: 100%;
+      height: 7rem;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 1.5rem 1.5rem 0px 0px;
+      transition: transform 0.3s, filter 0.3s;
+      filter: brightness(0.8);
+      mask-image: linear-gradient(to bottom, #000000, black);
+    }
+
+    .grid-item-cap img:hover {
+      transform: scale(0.999);
+      filter: brightness(0.8);
+    }
+
+    .caption-cap {
+      font-size: 1.2rem;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      color: #000;
+      left: 0;
+      right: 0;
+      background-color: rgb(255 255 255 / 0%);
+      padding: 0.5rem 0rem 0rem 1.5rem;
+      text-align: left;
+      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
+      letter-spacing: 0px;
+    }
+
+    .sub-caption-cap {
+      font-size: 0.9rem;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 500;
+      color: #000000;
+      left: 0;
+      right: 0;
+      background-color: rgb(255 255 255 / 0%);
+      padding: 0rem 1.5rem 1rem 1.5rem;
+      text-align: left;
+      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
+      letter-spacing: -0.2px;
+    }
+
+    .sub-caption-cap2 {
+      font-size: 0.9rem;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-weight: 500;
+      color: #006df0;
+      left: 0;
+      right: 0;
+      background-color: rgb(255 255 255 / 0%);
+      padding: 0rem 1rem 1rem 1.5rem;
+      text-align: left;
+      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
+      letter-spacing: -0.2px;
+    }
+
+    /* Tabs Container */
+    .tabs {
+      display: flex;
+      overflow-x: auto;
+      border-bottom: 0px solid #ccc;
+      white-space: nowrap;
+      padding: 1rem 0;
+    }
+    .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+    .tab {
+      flex: 0 0 auto;
+      padding: 0.8rem 1.5rem;
+      cursor: inherit;
+      font-weight: 550;
+      font-family: 'Outfit', sans-serif;
+      font-size:0.9rem;
+      color: #5b5b5b;
+      border-bottom: 0px solid transparent;
+      transition: color 0.3s, border-bottom-color 0.3s;
+    }
+
+    .tab:hover, .tab.active {
+      color: #000;
+    border-bottom-color: #007BFF;
+    background: #f7f9fd;
+    border-radius: 2rem;
+          font-weight: 700;
+    }
+
+    /* Tab Content */
+    .content-container {
+      display: none;
+    }
+
+    .content-container.active {
+      display: block;
+    }
+   
+   .container-label {
+            text-align: left;   /* Ensures all children are left-aligned */
+            margin: 1rem;
+        }
+         .label {
+       margin: 0rem 1rem 1rem 1rem;
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.9rem;
+      color: #ffffff;
+      background-color: #000000;
+      border-radius: 1rem;
+      white-space: nowrap;
+      font-weight: 500;
+      max-width:10rem;
+        }
+
+
+    .chart-wrapper {
+      overflow-x: auto;
+      padding-bottom: 2rem;
+    }
+
+    .chart {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+      padding: 0 1rem;
+      min-width: max-content;
+    }
+     .chart-wrapper::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for WebKit browsers */
+        }
+
+    .bar-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 35px;
+      flex: 0 0 auto;
+    }
+
+    .bar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 100%;
+      height: 15rem;
+      position: relative;
+      border: 0px solid #ccc;
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+
+    .low, .high {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+
+    .low {
+      background-color: #2234ff;
+      align-items: flex-start;
+      padding-bottom: 2px;
+    }
+
+    .high {
+      background-color: #f7f9fd;
+      align-items: flex-start;
+      padding-top: 2px;
+      color: #4e4e4e;
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    .month-label {
+          margin-top: 6px;
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    }
+
+    /* Optional: hide scrollbar on WebKit browsers */
+    .chart-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .chart-wrapper::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 4px;
+    }
