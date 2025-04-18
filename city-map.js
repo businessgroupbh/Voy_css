@@ -202,3 +202,22 @@ document.addEventListener("DOMContentLoaded", () => {
     lazyImages.forEach(image => observer.observe(image));
 });
 
+
+
+
+
+
+
+
+
+document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from tabs and contents
+        document.querySelectorAll('.tab, .content-container').forEach(el => el.classList.remove('active'));
+
+        // Activate the selected tab and corresponding content
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+});
+
