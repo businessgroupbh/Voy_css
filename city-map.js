@@ -162,7 +162,7 @@ document.querySelectorAll('.category').forEach(category => {
 
 
 
-
+ // ?///////////////// LAZY IMAGE
 
 document.addEventListener("DOMContentLoaded", () => {
     // Default placeholder image
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
+ // ?/////////////////TAB SCRIPT
 
 document.querySelectorAll('.tab').forEach(tab => {
       tab.addEventListener('click', () => {
