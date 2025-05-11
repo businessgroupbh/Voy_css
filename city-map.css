@@ -148,8 +148,8 @@ a {
               width: 100%;
         }
   		.tab-intro {
-              padding: 1rem 2rem;
-          		width: 85%;
+              margin: 1rem auto;
+    width: 90%;
         }
 
         .place-card {
