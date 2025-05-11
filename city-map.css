@@ -1,4 +1,4 @@
-
+ 
   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Lexend:wght@100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet');
   
@@ -53,11 +53,10 @@ a {
             margin: 0;
             padding: 0;
             height: 100%;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Albert Sans', sans-serif;
         }
  		 h1 {
           padding: 0 0rem;
-          font-family: 'Outfit', sans-serif;
           font-size: 1.5rem;
           font-weight:700;
           letter-spacing:0.2px;
@@ -67,7 +66,6 @@ a {
    		p {
     padding: 0;
     color: #000;
-    font-family: 'Outfit', sans-serif;
     font-size: 1rem;
     text-align: justify;
     line-height: 1.2rem;
@@ -253,7 +251,6 @@ a {
             cursor: inherit;
             text-decoration: none;
             color: #000000;
-            font-family: 'Outfit', sans-serif;
             font-size: 0.9rem;
             font-weight: 600;
             transition: background-color 0.3s;
@@ -306,7 +303,6 @@ a {
         .subcategory-header {
             font-size: 1.15rem;
             font-weight: 700;
-            font-family: 'Outfit', sans-serif;
             text-align: left;
             margin-bottom: 0rem;
           padding: 0.5rem 0rem 0rem;
@@ -319,7 +315,6 @@ a {
             text-align: left;
             margin-bottom: 8px;
             font-size: 0.85rem;
-            font-family: 'Outfit', sans-serif;
             color: #000000;
             font-weight: 500;
         }
@@ -479,7 +474,6 @@ a {
 
     .caption-cap {
       font-size: 1.2rem;
-      font-family: 'Outfit', sans-serif;
       font-weight: 600;
       color: #000;
       left: 0;
@@ -493,7 +487,6 @@ a {
 
     .sub-caption-cap {
       font-size: 0.9rem;
-      font-family: 'Outfit', sans-serif;
       font-weight: 500;
       color: #000000;
       left: 0;
@@ -507,7 +500,6 @@ a {
 
     .sub-caption-cap2 {
       font-size: 0.9rem;
-      font-family: 'Kumbh Sans', sans-serif;
       font-weight: 500;
       color: #006df0;
       left: 0;
@@ -536,7 +528,6 @@ a {
       padding: 0.8rem 1.5rem;
       cursor: inherit;
       font-weight: 550;
-      font-family: 'Outfit', sans-serif;
       font-size:0.9rem;
       color: #5b5b5b;
       border-bottom: 0px solid transparent;
@@ -566,7 +557,6 @@ a {
         }
          .label {
        margin: 0rem 1rem 1rem 1rem;
-      font-family: 'Outfit', sans-serif;
       text-align: center;
       padding: 0.5rem;
       font-size: 0.9rem;
