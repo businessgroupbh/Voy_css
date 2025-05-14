@@ -1,5 +1,4 @@
- 
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kumbh+Sans:wght@100..900&family=Lexend:wght@100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet');
   
   
@@ -422,94 +421,73 @@ a {
 }
   
 .grid-container-cap {
-      display: flex;
-      background-color: #fff0;
-      padding: 0;
-      grid-gap: 0px 25px;
-      overflow-x: auto;
-      overflow-y: hidden;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      max-height: 500px;
-      cursor: none;
-      margin: 0;
-    }
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
+}
 
-    .grid-item-cap {
-      position: relative;
-      flex: 0 0 auto;
-      background-color: #f7f9fd;
-      border: 1px solid rgb(247 249 253);
-      padding: 0px 0px 0px 0px;
-      height: auto;
-      width: 19rem;
-      border-radius: 1.5rem;
-      margin-bottom: 1.5rem;
-      font-size: 13px;
-      text-align: left;
-      box-shadow: none;
-      cursor: none;
-    }
+.grid-container-cap::-webkit-scrollbar {
+  display: none;
+}
 
-    .grid-container-cap::-webkit-scrollbar {
-      display: none;
-    }
+.grid-item-cap {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+    height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #f7f9fd;
+  border: 1px solid rgb(247 249 253);
+  scroll-snap-align: center;
+}
 
-    .grid-item-cap img {
-      position: relative;
-      width: 100%;
-      height: 7rem;
-      object-fit: cover;
-      object-position: center;
-      border-radius: 1.5rem 1.5rem 0px 0px;
-      transition: transform 0.3s, filter 0.3s;
-      filter: brightness(0.8);
-      mask-image: linear-gradient(to bottom, #000000, black);
-    }
+/* Text left */
+.text-block-cap {
+  width: 60%;
+  background-color:#f7f9fd;
+  color: #000;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
-    .grid-item-cap img:hover {
-      transform: scale(0.999);
-      filter: brightness(0.8);
-    }
+/* Image right */
+.image-block-cap {
+  width: 40%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .caption-cap {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: #000;
-      left: 0;
-      right: 0;
-      background-color: rgb(255 255 255 / 0%);
-      padding: 0.5rem 0rem 0rem 1.5rem;
-      text-align: left;
-      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
-      letter-spacing: 0px;
-    }
+.image-block-cap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
 
-    .sub-caption-cap {
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: #000000;
-      left: 0;
-      right: 0;
-      background-color: rgb(255 255 255 / 0%);
-      padding: 0rem 1.5rem 1rem 1.5rem;
-      text-align: left;
-      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
-      letter-spacing: -0.2px;
-    }
+.image-block-cap img:hover {
+  transform: scale(1.01);
+  filter: brightness(1);
+}
 
-    .sub-caption-cap2 {
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: #006df0;
-      left: 0;
-      right: 0;
-      background-color: rgb(255 255 255 / 0%);
-      padding: 0rem 1rem 1rem 1.5rem;
-      text-align: left;
-      text-shadow: 0px 1px 100px rgb(0 0 0 / 0%);
-      letter-spacing: -0.2px;
-    }
+.caption-cap {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sub-caption-cap {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+
 
     /* Tabs Container */
     .tabs {
@@ -556,7 +534,7 @@ a {
             margin: 1rem;
         }
          .label {
-       margin: 0rem 1rem 1rem 1rem;
+           margin-top: 0.5rem;
       text-align: center;
       padding: 0.5rem;
       font-size: 0.9rem;
